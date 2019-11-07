@@ -20,7 +20,7 @@ $(document).ready(function(){
       slidesToShow: 5,
       slidesToScroll: 1,
       autoplaySpeed: 3000
-    });
+  });
   
   /**  Third  Slider */
   $(".slider-three")
@@ -30,8 +30,23 @@ $(document).ready(function(){
       nextArrow: ".site-slider-three .next",
       slidesToShow: 4,
       slidesToScroll: 1,
-      autoplaySpeed: 3000
-    });
+      autoplaySpeed: 3000,
+      infinite: false,
+      responsive: breakpoint
+  });
+
+  /**  Four  Slider */
+  $(".slider-four")
+    .not(".slick-intialized")
+    .slick({
+      prevArrow: ".site-slider-four .prev",
+      nextArrow: ".site-slider-four .next",
+      slidesToShow: 4,
+      slidesToScroll: 1,
+      autoplaySpeed: 3000,
+      infinite: false,
+      responsive: breakpoint
+  });
 
 
 });
