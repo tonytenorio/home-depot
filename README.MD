@@ -1,4 +1,4 @@
-# Corporate Web site
+# The Home Depot Web site
 
 Online Store Responsive Bootstrap Layout Design Website With Slider, Icons, Typography and More
 
